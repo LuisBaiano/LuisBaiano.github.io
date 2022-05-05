@@ -1,4 +1,5 @@
-* {
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -37,6 +38,7 @@
 }
 
 .profile .profile-image {
+    width: 80%;
     width: 100%;
     border-radius: 100%;
 }
@@ -104,4 +106,50 @@
     margin-top: 25px;
     font-size: 18px;
     color: #eeeeee;
+}
+
+.experience-contents,
+.education-contents,
+.awards-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2rem;
+    color: #00fa36;
+}
+
+.exp-company-name,
+.education-school-name,
+.awards-company-name {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #00fa36;
+    padding-bottom: .4rem;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.exp-time-period,
+.educationp-time-period,
+.awards-time-period {
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 18px;
+}
+
+.exp-position,
+.education-subject,
+.awards-name {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #00fa36;
+    padding-bottom: .3rem;
+    font-size: 25px;
+}
+
+.exp-desc,
+.education-desc,
+.awards-desc {
+    font-size: 16px;
+    padding-left: 5px;
 }
