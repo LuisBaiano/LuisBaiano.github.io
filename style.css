@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -43,29 +43,29 @@
 
 .name {
     color: #D6DBDF;
-    margin-top: 15px;
-    font-size: 20px;
+    padding-top: 2rem;
+    font-size: 18px;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
 .profession {
+    padding-top: 1rem;
     color: #eeeeee;
-    margin-top: 10px;
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
     text-align: center;
 }
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
+    padding-top: 1.2rem;
     color: #eeeeee;
-    margin-top: 25px;
     font-size: 20px;
 }
 
 .contact-info ul {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
 }
 
 .contact-info ul li,
@@ -82,7 +82,7 @@
 }
 
 .skills ul {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
 }
 .skills ul li p {
     padding: .4rem 0;
@@ -99,9 +99,10 @@
 
 .gap {
     padding-bottom: 2rem;
+
 }
 .about-me-contents {
-    margin-top: 25px;
+    padding-top: 2rem;
     font-size: 18px;
     color: #eeeeee;
 }
@@ -112,16 +113,13 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
-    color: #00fa36;
+    padding: 2.1rem;
+    color: #F1F8FD;
 }
 
 .exp-company-name,
 .education-school-name,
 .awards-company-name {
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #00fa36;
-    padding-bottom: .4rem;
     font-size: 25px;
     font-weight: bold;
 }
@@ -129,20 +127,13 @@
 .exp-time-period,
 .educationp-time-period,
 .awards-time-period {
-    letter-spacing: 1px;
-    line-height: 20px;
     font-size: 18px;
 }
 
 .exp-position,
 .education-subject,
 .awards-name {
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #00fa36;
-    padding-bottom: .3rem;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .exp-desc,
